@@ -9,7 +9,7 @@ function HeroSection() {
         <div className='grid grid-cols-1 sm:grid-cols-12'>
             <div className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
                 <h1 className='text-white mb-4  text-4xl lg:text-8xl lg:leading-normal font-extrabold'>
-                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>
+                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600'>
                         Hello, I am{" "}
                     </span>
                     <br/>
@@ -34,8 +34,8 @@ function HeroSection() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
                 <div>
-                    <button className='px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>Hire Me</button>
-                    <button className='px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3'>
+                    <button className='px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white'>Hire Me</button>
+                    <button className='px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3'>
                         <span className='block bg-[#121212] hover:bg-slate-500 rounded-full px-5 py-2'>
                             Download CV
                         </span>
