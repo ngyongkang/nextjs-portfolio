@@ -14,7 +14,7 @@ function HeroSection() {
             transition={{duration: 0.5}}  
             className="col-span-8 place-self-center text-center sm:text-left justify-self-start mr-10"
             >
-                <h1 className='text-white mb-4  text-4xl lg:text-8xl lg:leading-normal font-extrabold'>
+                <h1 className='text-white mb-4  text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold'>
                     <span className='text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600'>
                         Hello, I am{" "}
                     </span>
@@ -37,7 +37,9 @@ function HeroSection() {
                     />
                 </h1>
                 <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Welcome to my website! I would first like to thank you for visiting it and
+                hope you take your time to read about me. I look forward to receiving your email
+                if your interested in me. 
                 </p>
                 <div>
                     <button className='px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white'>Hire Me</button>

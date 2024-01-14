@@ -7,58 +7,58 @@ import { motion, useInView } from 'framer-motion';
 const projects = [
     {
         id: 1,
-        title: "React Protfolio Website",
-        description: `Project 1 description`,
+        title: "NextJS Protfolio Website",
+        description: `The current website your on! It's my very first personal project with many more to come.`,
         image: "images/projects/1.png",
-        tag: ["All", "Web"],
-        gitUrl: "/",
+        tag: ["All", "Web", "Mobile"],
+        gitUrl: "https://github.com/ngyongkang/nextjs-portfolio",
         previewUrl: "/"
     },
-    {
-        id: 2,
-        title: "React Protfolio Website",
-        description: `Project 2 description`,
-        image: "images/projects/1.png",
-        tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "/"
-    },
-    {
-        id: 3,
-        title: "React Protfolio Website",
-        description: `Project 3 description`,
-        image: "images/projects/1.png",
-        tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "/"
-    },
-    {
-        id: 4,
-        title: "React Protfolio Website",
-        description: `Project 4 description`,
-        image: "images/projects/1.png",
-        tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "/"
-    },
-    {
-        id: 5,
-        title: "React Protfolio Website",
-        description: `Project 5 description`,
-        image: "images/projects/1.png",
-        tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "/"
-    },
-    {
-        id: 6,
-        title: "React Protfolio Website",
-        description: `Project 6 description`,
-        image: "images/projects/1.png",
-        tag: ["All", "Mobile"],
-        gitUrl: "/",
-        previewUrl: "/"
-    },
+    // {
+    //     id: 2,
+    //     title: "React Protfolio Website",
+    //     description: `Project 2 description`,
+    //     image: "images/projects/1.png",
+    //     tag: ["All", "Web"],
+    //     gitUrl: "/",
+    //     previewUrl: "/"
+    // },
+    // {
+    //     id: 3,
+    //     title: "React Protfolio Website",
+    //     description: `Project 3 description`,
+    //     image: "images/projects/1.png",
+    //     tag: ["All", "Web"],
+    //     gitUrl: "/",
+    //     previewUrl: "/"
+    // },
+    // {
+    //     id: 4,
+    //     title: "React Protfolio Website",
+    //     description: `Project 4 description`,
+    //     image: "images/projects/1.png",
+    //     tag: ["All", "Web"],
+    //     gitUrl: "/",
+    //     previewUrl: "/"
+    // },
+    // {
+    //     id: 5,
+    //     title: "React Protfolio Website",
+    //     description: `Project 5 description`,
+    //     image: "images/projects/1.png",
+    //     tag: ["All", "Web"],
+    //     gitUrl: "/",
+    //     previewUrl: "/"
+    // },
+    // {
+    //     id: 6,
+    //     title: "React Protfolio Website",
+    //     description: `Project 6 description`,
+    //     image: "images/projects/1.png",
+    //     tag: ["All", "Mobile"],
+    //     gitUrl: "/",
+    //     previewUrl: "/"
+    // },
 ];
 
 const tags = ["All","Web","Mobile"];

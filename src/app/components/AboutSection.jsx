@@ -39,26 +39,41 @@ function AboutSection() {
             )
         },
         {
-            id:"certification",
-            text:"Certifications",
+            id:"languages",
+            text:"Languages",
             content: (
                 <ul className='list-disc pl-2'>
-                    <li>Bachelor&apos;s degree in Computer Science & Cyber Forensics</li>
+                    <li>English</li>
+                    <li>Chinese</li>
                 </ul>
             )
         },
+        // {
+        //     id:"certification",
+        //     text:"Certifications",
+        //     content: (
+        //         <ul className='list-disc pl-2'>
+        //             <li>Bachelor&apos;s degree in Computer Science & Cyber Forensics</li>
+        //         </ul>
+        //     )
+        // },
     ]
 
     return (
         <section className='text-white'>
-            <div className='md:grind md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 xl:px-16 sm:py-16 '>
+            <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 xl:px-16 sm:py-16 '>
                 <Image src="/images/about-image.png" width={500} height={500} alt='About me image'/>
                 <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                     <h2 className='text-4xl font-bold text-white mb-4'>
                         About Me
                     </h2>
                     <p className='text-base md:text-lg'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    I am a full-stack developer, who worked in this industry for two years now. I strive 
+                    to learn new tech stacks and expand my horizons. Even though I have not been on many
+                    projects yet. I have learnt from my past experiences that teamwork is key and believe
+                    in working together to achieve a better product. <br/><br/> I love coding languages that provide
+                    Object Oriented Programming such as Java because I like piecing various objects together
+                    like a puzzle.
                     </p>
                     <div className='flex flex-row justify-start mt-8'>
                         {tabs.map(function(tabObj, index){

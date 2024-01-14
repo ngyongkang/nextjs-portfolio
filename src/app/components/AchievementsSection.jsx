@@ -7,22 +7,24 @@ const AnimatedNumbers = dynamic(() => {return import("react-animated-numbers")},
 const achievements = [
     {
         metric: 'Projects',
+        value: '1',
+        // postfix: '+'      
+    },
+    {
+        metric: 'Government Projects',
+        value: '1'
+    },
+    {
+        metric: 'Coding Languages',
+        value: '5',
+        // prefix: '~',
+        postfix: '+' 
+    },
+    
+    {
+        metric: 'Working Years',
         value: '2',
-        postfix: '+'      
-    },
-    {
-        metric: 'Users',
-        value: '1M+',
-        prefix: '~',
-    },
-    {
-        metric: 'Awards',
-        value: '10+'
-    },
-    {
-        metric: 'Years',
-        value: '2',
-        postfix: '+'
+        // postfix: '+'
     }
 ];
 
