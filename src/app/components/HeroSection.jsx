@@ -1,8 +1,8 @@
 'use client'
-import React from 'react'
-import Image from 'next/image'
-import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion';
+import Image from 'next/image';
+import { TypeAnimation } from 'react-type-animation';
+import Link from 'next/link';
 
 function HeroSection() {
   return (
@@ -42,12 +42,16 @@ function HeroSection() {
                 if your interested in me. 
                 </p>
                 <div>
+                <Link href="https://www.linkedin.com/in/ng-yong-kang-a60871193">
                     <button className='px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white'>Hire Me</button>
+                </Link>
+                <a href="/cv.pdf" download="Ng-Yong-Kang-CV-JAN-2024">
                     <button className='px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3'>
                         <span className='block bg-[#121212] hover:bg-slate-500 rounded-full px-5 py-2'>
                             Download CV
                         </span>
                     </button>
+                </a>
                 </div>
             </motion.div>
             <motion.div
