@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-import colors, { purple, pink } from 'tailwindcss/colors'
+import colors from 'tailwindcss/colors'
 
 module.exports = {
   content: [
@@ -17,8 +17,8 @@ module.exports = {
     },
     colors: {
       ...colors,
-      primary: purple,
-      secondary: pink
+      primary: colors.blue,
+      secondary: colors.red
     }
   },
   plugins: [],
